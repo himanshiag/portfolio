@@ -450,8 +450,8 @@ section {
 
 @media screen and (max-width: 960px){
     .nav-list{
-        flex-direction: column;
-        color: red;
+         padding-right: 300px;
+        max-width: 50%;
     }
 
 }
