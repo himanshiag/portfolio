@@ -450,10 +450,23 @@ section {
 
 @media screen and (max-width: 960px){
     .nav-list{
-         padding-right: 300px;
-        max-width: 50%;
+        padding-right: 300px;
+        display: none;
+    }
+    .container{
+    padding-left: 90px;
     }
 
+    .container .hero-text h1{
+        font-size: 1.7rem;
+    }
+    .container .hero-text h2{
+        font-size: 1.7rem;
+    }
+
+    .skills-bar{
+        width: 85%;
+    }
 }
   
 
